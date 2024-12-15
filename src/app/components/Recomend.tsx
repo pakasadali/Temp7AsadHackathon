@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import car4 from "../../../Public/car4.png";
 import car5 from "../../../Public/Car5.png";
@@ -13,7 +13,7 @@ import car11 from "../../../Public/Car11.png";
 interface CarData {
   name: string;
   type: string;
-  image: any; // Using any for the imported image type
+  image: StaticImageData; // Using any for the imported image type
   fuel: string;
   transmission: string;
   capacity: string;

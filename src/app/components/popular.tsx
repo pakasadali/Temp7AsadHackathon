@@ -8,9 +8,9 @@ import car from '../../../Public/car.png'
 
 // Interface for CarCard properties
 interface CarCardProps {
-  name: string;
-  type: string;
-  image: string; // Use a string for the `image` prop to refer to public assets directly
+  // name: string;
+  //type: string;
+ // image: string; // Use a string for the `image` prop to refer to public assets directly
   fuel: string;
   transmission: string;
   capacity: string;
