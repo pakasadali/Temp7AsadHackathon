@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 // import profile from "../../../Public/profile-icon.png";
 // Reusable Component for Icons
 type IconProps = {
